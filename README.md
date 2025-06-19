@@ -1,24 +1,24 @@
 
 ---
 
-### 📁 `Fake-News-Detection/README.md`
+ 📁 `Fake-News-Detection/README.md`
 
 ```markdown
-# 📰 Fake News Detection
+ 📰 Fake News Detection
 
 This project uses Natural Language Processing (NLP) and machine learning to identify whether a given news article is fake or real.
 
-## 🧠 Project Objective
+ 🧠 Project Objective
 
 To classify news articles as *real* or *fake* based on their textual content using NLP and supervised learning algorithms.
 
-## 📁 Dataset
+ 📁 Dataset
 
 - **Source**: Kaggle Fake News Dataset
 - **Columns**: `title`, `text`, `subject`, `date`, `label`
   - `label`: 1 for fake news, 0 for real news
 
-## 🛠️ Technologies & Libraries
+ 🛠️ Technologies & Libraries
 
 - Python
 - Pandas, NumPy
@@ -27,7 +27,7 @@ To classify news articles as *real* or *fake* based on their textual content usi
 - TfidfVectorizer
 - PassiveAggressiveClassifier / Naive Bayes
 
-## 📈 Workflow
+ 📈 Workflow
 
 1. **Text Preprocessing**
    - Lowercasing, stopword removal
@@ -44,7 +44,7 @@ To classify news articles as *real* or *fake* based on their textual content usi
 4. **Evaluation**
    - Accuracy, Confusion Matrix, F1-Score
 
-## 📊 Model Performance
+📊 Model Performance
 
 | Model                   | Accuracy | F1-Score |
 |------------------------|----------|----------|
