@@ -14,8 +14,8 @@ To classify news articles as *real* or *fake* based on their textual content usi
 
  📁 Dataset
 
-- **Source**: Kaggle Fake News Dataset
-- **Columns**: `title`, `text`, `subject`, `date`, `label`
+- Source: Kaggle Fake News Dataset
+- Columns: `title`, `text`, `subject`, `date`, `label`
   - `label`: 1 for fake news, 0 for real news
 
  🛠️ Technologies & Libraries
@@ -29,27 +29,20 @@ To classify news articles as *real* or *fake* based on their textual content usi
 
  📈 Workflow
 
-1. **Text Preprocessing**
+1. Text Preprocessing**
    - Lowercasing, stopword removal
    - Tokenization, stemming/lemmatization
    - Removing punctuations
 
-2. **Feature Extraction**
+2. Feature Extraction**
    - TF-IDF Vectorization
 
-3. **Model Training**
+3. Model Training**
    - PassiveAggressiveClassifier
    - Multinomial Naive Bayes
 
-4. **Evaluation**
+4. Evaluation**
    - Accuracy, Confusion Matrix, F1-Score
-
-📊 Model Performance
-
-| Model                   | Accuracy | F1-Score |
-|------------------------|----------|----------|
-| PassiveAggressiveClassifier | 0.93     | 0.93     |
-| Naive Bayes             | 0.88     | 0.87     |
 
 
 
