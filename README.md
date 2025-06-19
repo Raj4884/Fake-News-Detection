@@ -41,7 +41,7 @@ To classify news articles as *real* or *fake* based on their textual content usi
    - PassiveAggressiveClassifier
    - Multinomial Naive Bayes
 
-4. Evaluation**
+4. Evaluation-
    - Accuracy, Confusion Matrix, F1-Score
 
 
