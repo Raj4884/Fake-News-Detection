@@ -29,15 +29,15 @@ To classify news articles as *real* or *fake* based on their textual content usi
 
  📈 Workflow
 
-1. Text Preprocessing**
+1. Text Preprocessing-
    - Lowercasing, stopword removal
    - Tokenization, stemming/lemmatization
    - Removing punctuations
 
-2. Feature Extraction**
+2. Feature Extraction-
    - TF-IDF Vectorization
 
-3. Model Training**
+3. Model Training-
    - PassiveAggressiveClassifier
    - Multinomial Naive Bayes
 
